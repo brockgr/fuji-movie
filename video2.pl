@@ -1,5 +1,8 @@
 #!/usr/bin/env perl
 
+# Simple video animation with handling of image resize after image format
+# changed
+
 use strict;
 use warnings;
 use Check;

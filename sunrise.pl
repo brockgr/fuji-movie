@@ -1,5 +1,7 @@
 #!/usr/bin/perl
 
+# Animate all sunrise images
+
 use strict;
 use warnings;
 use Check;

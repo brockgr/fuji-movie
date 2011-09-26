@@ -1,5 +1,7 @@
 #!/usr/bin/perl
 
+# Animation based on naive image check and sunrise/set times
+
 use strict;
 use warnings;
 use Check;

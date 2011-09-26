@@ -1,5 +1,7 @@
 #!/usr/bin/perl
 
+# Simple animation of a set of files
+
 use strict;
 use warnings;
 
@@ -14,7 +16,7 @@ eval {
         link($file, $link) || die $!;;
         push @links, $link;
     }
-sleep 1;
+    sleep 1;
     system("../ffmpeg/ffmpeg","-r","30","-sameq","-i","$dir/%d.jpg","test.mp4");
 };
 warn $@ if $@;

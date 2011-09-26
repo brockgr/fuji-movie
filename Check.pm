@@ -1,5 +1,8 @@
 package Check;
 
+# Library for naive check for image quality based on averaging lines
+# of pixels
+
 use strict;
 use warnings;
 use Imager;
